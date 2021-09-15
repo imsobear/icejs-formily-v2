@@ -1,18 +1,16 @@
 import { IRouterConfig } from 'ice';
-import BasicLayout from '@/layouts/BasicLayout';
-import Dashboard from '@/pages/Dashboard';
+import Home from '@/pages/Home';
+import About from '@/pages/About';
 
 const routerConfig: IRouterConfig[] = [
   {
     path: '/',
-    component: BasicLayout,
-    children: [
-      {
-        path: '/',
-        exact: true,
-        component: Dashboard,
-      },
-    ],
+    exact: true,
+    component: Home,
+  },
+  {
+    path: '/about',
+    component: About,
   },
 ];
 export default routerConfig;

@@ -1,11 +1,14 @@
 {
+  "devServer": {
+    "writeToDisk": true
+  },
   "plugins": [
-    [
-      "build-plugin-fusion",
-      {
-        "themePackage": "@alifd/theme-design-pro"
-      }
-    ],
+    // [
+    //   "build-plugin-fusion",
+    //   {
+    //     "themePackage": "@alifd/theme-design-pro"
+    //   }
+    // ],
     [
       "build-plugin-moment-locales",
       {
@@ -14,6 +17,15 @@
         ]
       }
     ],
-    "@ali/build-plugin-ice-def"
+    // [
+    //   "build-plugin-modular-import",
+    //   [
+    //     {
+    //       "libraryName": "@formily/next",
+    //       "style": true,
+    //       // "camel2DashComponentName": false
+    //     }
+    //   ]
+    // ]
   ]
 }
