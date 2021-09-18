@@ -1,9 +1,14 @@
 // 引入默认全局样式
 // @import '~@alifd/next/index.css';
-// 重复
-// @import '~@alifd/next/index.scss';
+
+// @import '~@alifd/theme-1/dist/next.css';
+
+// @import '~@alifd/theme-1/variables.css';
+// @import '~@alifd/next/index.css';
+
+@import '~@alifd/theme-1/variables.scss';
+@import '~@alifd/next/index.scss';
 
 body {
   -webkit-font-smoothing: antialiased;
 }
-

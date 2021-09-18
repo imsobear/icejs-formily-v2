@@ -1,10 +1,7 @@
 import { runApp, IAppConfig } from 'ice';
 
-// import 'antd/dist/antd.less';
-
-// 大量重复
-// import '@alifd/next/index.scss';
-import '@alifd/next/dist/next.css';
+// 正常不需要主动加
+import './global.scss';
 
 const appConfig: IAppConfig = {
   app: {
